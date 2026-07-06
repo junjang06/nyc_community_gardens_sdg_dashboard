@@ -1,0 +1,198 @@
+nta_code,nta_name,population,source,source_url
+BK0101,Greenpoint,38980,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0102,Williamsburg,64444,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0103,South Williamsburg,47703,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0104,East Williamsburg,52998,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0201,Brooklyn Heights,25092,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,40968,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0203,Fort Greene,32938,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0204,Clinton Hill,28647,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0301,Bedford-Stuyvesant (West),89189,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0302,Bedford-Stuyvesant (East),84653,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0401,Bushwick (West),58692,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0402,Bushwick (East),62055,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0501,Cypress Hills,43263,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0502,East New York (North),42818,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0503,East New York-New Lots,53004,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0504,Spring Creek-Starrett City,17038,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0505,East New York-City Line,45559,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,59166,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0602,Park Slope,57405,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0701,Windsor Terrace-South Slope,23622,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0702,Sunset Park (West),54473,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0703,Sunset Park (Central),55611,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0801,Prospect Heights,23515,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0802,Crown Heights (North),85275,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0901,Crown Heights (South),50605,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK0902,Prospect Lefferts Gardens-Wingate,49513,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1001,Bay Ridge,86866,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1002,Dyker Heights,46756,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1101,Bensonhurst,104934,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1102,Bath Beach,33079,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1103,Gravesend (West),60523,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1201,Sunset Park (East)-Borough Park (West),35632,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1202,Borough Park,93905,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1203,Kensington,41758,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1204,Mapleton-Midwood (West),39137,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1301,Gravesend (South),30366,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1302,Coney Island-Sea Gate,49517,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1303,Brighton Beach,33568,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1401,Flatbush,66503,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1402,Flatbush (West)-Ditmas Park-Parkville,43016,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1403,Midwood,52891,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1501,Gravesend (East)-Homecrest,52797,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1502,Madison,41466,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,69084,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1601,Ocean Hill,37952,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1602,Brownsville,60470,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1701,East Flatbush-Erasmus,47690,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1702,East Flatbush-Farragut,34317,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1703,East Flatbush-Rugby,42794,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1704,East Flatbush-Remsen Village,39115,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1801,Flatlands,67087,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1802,Marine Park-Mill Basin-Bergen Beach,46959,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BK1803,Canarsie,89937,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0101,Mott Haven-Port Morris,57718,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0102,Melrose,42651,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0201,Hunts Point,15131,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0202,Longwood,40289,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0301,Morrisania,37607,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0302,Claremont Village-Claremont (East),24553,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0303,Crotona Park East,30158,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0401,Concourse-Concourse Village,69393,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0402,Highbridge,32475,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0403,Mount Eden-Claremont (West),49661,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0501,University Heights (South)-Morris Heights,54682,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0502,Mount Hope,49099,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0503,Fordham Heights,32099,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0601,West Farms,20158,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0602,Tremont,32184,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0603,Belmont,35830,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0701,University Heights (North)-Fordham,46538,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0702,Bedford Park,55521,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0703,Norwood,43468,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0801,Kingsbridge Heights-Van Cortlandt Village,35777,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0802,Kingsbridge-Marble Hill,22807,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0803,Riverdale-Spuyten Duyvil,50877,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0901,Soundview-Bruckner-Bronx River,74342,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0902,Soundview-Clason Point,37303,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0903,Castle Hill-Unionport,41420,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX0904,Parkchester,33602,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1001,Westchester Square,17653,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1002,Throgs Neck-Schuylerville,48127,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1003,Pelham Bay-Country Club-City Island,29482,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1004,Co-op City,37369,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1101,Pelham Parkway-Van Nest,32425,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1102,Morris Park,25086,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1103,Pelham Gardens,29402,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1104,Allerton,34626,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1201,Williamsbridge-Olinville,61396,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1202,Eastchester-Edenwald-Baychester,52927,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+BX1203,Wakefield-Woodlawn,50295,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0101,Financial District-Battery Park City,52995,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0102,Tribeca-Civic Center,25390,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0201,SoHo-Little Italy-Hudson Square,23287,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0202,Greenwich Village,34147,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0203,West Village,35011,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0301,Chinatown-Two Bridges,42556,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0302,Lower East Side,49149,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0303,East Village,71436,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0401,Chelsea-Hudson Yards,69741,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0402,Hell’s Kitchen,59524,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0501,Midtown South-Flatiron-Union Square,33214,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0502,Midtown-Times Square,25575,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0601,Stuyvesant Town-Peter Cooper Village,22512,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0602,Gramercy,28628,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0603,Murray Hill-Kips Bay,63520,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0604,East Midtown-Turtle Bay,45765,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0701,Upper West Side-Lincoln Square,70712,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0702,Upper West Side (Central),101774,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0703,Upper West Side-Manhattan Valley,51749,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0801,Upper East Side-Lenox Hill-Roosevelt Island,85527,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0802,Upper East Side-Carnegie Hill,62421,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0803,Upper East Side-Yorkville,84046,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0901,Morningside Heights,38865,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0902,Manhattanville-West Harlem,22183,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN0903,Hamilton Heights-Sugar Hill,49410,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN1001,Harlem (South),47118,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN1002,Harlem (North),83335,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN1101,East Harlem (South),59814,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN1102,East Harlem (North),64651,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN1201,Washington Heights (South),72037,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN1202,Washington Heights (North),71846,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+MN1203,Inwood,36312,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0101,Astoria (North)-Ditmars-Steinway,50230,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0102,Old Astoria-Hallets Point,18927,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0103,Astoria (Central),52220,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0104,Astoria (East)-Woodside (North),38680,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0105,Queensbridge-Ravenswood-Dutch Kills,32967,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0201,Long Island City-Hunters Point,32216,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0202,Sunnyside,52298,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0203,Woodside,53197,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0301,Jackson Heights,101848,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0302,East Elmhurst,33573,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0303,North Corona,43437,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0401,Elmhurst,107864,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0402,Corona,73828,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0501,Maspeth,43260,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0502,Ridgewood,66402,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0503,Glendale,35158,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0504,Middle Village,34474,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0601,Rego Park,30744,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0602,Forest Hills,88976,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0701,College Point,33625,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0702,Whitestone-Beechhurst,28408,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0703,Bay Terrace-Clearview,23287,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0704,Murray Hill-Broadway Flushing,57387,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0705,East Flushing,34706,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0706,Queensboro Hill,23639,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0707,Flushing-Willets Point,69898,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0801,Kew Gardens Hills,36009,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0802,Pomonok-Electchester-Hillcrest,35669,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0803,Fresh Meadows-Utopia,23434,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0804,Jamaica Estates-Holliswood,23581,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0805,Jamaica Hills-Briarwood,39292,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0901,Kew Gardens,24371,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0902,Richmond Hill,34100,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0903,South Richmond Hill,24141,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0904,Ozone Park (North),27312,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN0905,Woodhaven,41948,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1001,South Ozone Park,79540,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1002,Ozone Park,23518,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1003,Howard Beach-Lindenwood,27321,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1101,Auburndale,36182,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1102,Bayside,35591,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1103,Douglaston-Little Neck,26838,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1104,Oakland Gardens-Hollis Hills,25249,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1201,Jamaica,60993,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1202,South Jamaica,44401,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1203,Baisley Park,43090,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1204,Springfield Gardens (North)-Rochdale Village,32883,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1205,St. Albans,51816,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1206,Hollis,24576,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1301,Glen Oaks-Floral Park-New Hyde Park,24934,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1302,Bellerose,26854,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1303,Queens Village,54599,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1304,Cambria Heights,19412,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1305,Laurelton,26088,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1306,Springfield Gardens (South)-Brookville,23104,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1307,Rosedale,29325,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1401,Far Rockaway-Bayswater,59719,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1402,Rockaway Beach-Arverne-Edgemere,41379,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,24146,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0101,St. George-New Brighton,20557,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,19027,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0103,Rosebank-Shore Acres-Park Hill,25542,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0104,West New Brighton-Silver Lake-Grymes Hill,37010,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0105,Westerleigh-Castleton Corners,31458,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0106,Port Richmond,22609,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0107,Mariner’s Harbor-Arlington-Graniteville,33492,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,36277,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0202,New Dorp-Midland Beach,29129,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0203,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,32822,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0204,New Springville-Willowbrook-Bulls Head-Travis,42886,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0301,Oakwood-Richmondtown,22388,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0302,Great Kills-Eltingville,54704,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0303,Arden Heights-Rossville,30778,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0304,Annadale-Huguenot-Prince’s Bay-Woodrow,40534,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
+SI0305,Tottenville-Charleston,16089,Prison Policy Initiative table; column: 2020 Census population,https://www.prisonpolicy.org/origin/ny/2020/nyc_nta.html
