@@ -472,6 +472,13 @@ def standardize_borough(value: object) -> Optional[str]:
         "si": "Staten Island",
         "staten island": "Staten Island",
         "richmond": "Staten Island",
+        "m": "Manhattan",
+"x": "Bronx",
+"b": "Brooklyn",
+"k": "Brooklyn",
+"q": "Queens",
+"r": "Staten Island",
+"s": "Staten Island",
     }
     return mapping.get(v, str(value).strip())
 
