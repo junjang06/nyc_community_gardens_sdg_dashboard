@@ -1,5 +1,25 @@
-# NYC Community Gardens for Equitable Climate Resilience
+# NYC Community Gardens SDG Dashboard
 
-A Streamlit dashboard that treats NYC community gardens as small-scale urban resilience infrastructure connected to SDG 11, SDG 13, SDG 15, and supporting SDG 2 and SDG 3.
+## Overview
+An interactive Streamlit dashboard that explores NYC community gardens through SDG, sustainability, and urban green space equity perspectives.
 
-This dashboard is exploratory and educational. It does not estimate causal effects of community gardens on health outcomes. For formal analysis, verify population denominators, HVI geography compatibility, garden status/operating access, and walking-network access.
+## Problem
+Community gardens are local sustainability assets, but youth and community audiences often lack an accessible way to understand how they connect to SDGs, climate resilience, and urban equity.
+
+## My Role
+Designed and built the dashboard using Python and Streamlit for IVECA youth-facing SDG presentation.
+
+## Tools
+Python, Streamlit, pandas, Plotly, GitHub
+
+## Key Features
+- Borough-level garden distribution
+- SDG-focused dashboard sections
+- Interactive filters
+- Youth-friendly civic data storytelling
+
+## Live App
+[https://nyccommunitygardensdb.streamlit.app]
+
+## Next Steps
+Add climate vulnerability, neighborhood-level equity indicators, and more refined SDG metrics.
