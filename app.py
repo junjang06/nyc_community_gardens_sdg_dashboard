@@ -1623,4 +1623,3 @@ with st.expander("Data caveats and source notes", expanded=False):
             "hvi_join_status": hvi_join_status,
         }
     )
-
