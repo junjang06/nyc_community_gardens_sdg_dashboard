@@ -1559,19 +1559,6 @@ with tab5:
         mime="text/csv",
     )
 
-    st.markdown("#### 60-second presenter script")
-    st.text_area(
-        "Presenter script",
-        value=(
-            "Hello, my dashboard asks one question: How can NYC community gardens support sustainable, equitable, and climate-resilient cities? "
-            "I treat community gardens as small-scale urban resilience infrastructure, not just as nice green spaces. "
-            "First, I map where gardens are located across New York City. Then I connect those garden points to neighborhood boundaries and population data to calculate access: gardens per 10,000 residents. "
-            "Next, I compare access with heat vulnerability. Neighborhoods with high heat vulnerability and low garden access become priority areas for youth-led SDG education. "
-            "This is not a causal health study; it is an exploratory priority map. The goal is to help students ask better civic questions, identify neighborhoods for partnership, and connect local action to SDG 11, SDG 13, SDG 15, SDG 2, and SDG 3."
-        ),
-        height=190,
-    )
-
 # -----------------------------------------------------------------------------
 # Footer: caveats and sources
 # -----------------------------------------------------------------------------
