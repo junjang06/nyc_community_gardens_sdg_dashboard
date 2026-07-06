@@ -127,6 +127,54 @@ HVI_FACTOR_ROWS = [
     {"HVI factor": "Percent households reporting air-conditioning access", "Interpretation": "AC access is protective during extreme heat events."},
 ]
 
+METRIC_EXPLANATIONS = {
+    "garden_count": {
+        "label": "Garden Count",
+        "plain": "How many GreenThumb garden point records fall inside each NTA boundary.",
+        "formula": "count(garden points within NTA)",
+        "use": "Best for seeing where gardens are physically present or absent.",
+        "watchout": "It is not population-adjusted; a large neighborhood and a small neighborhood can look equal if both have the same count.",
+    },
+    "garden_access_score": {
+        "label": "Garden Access Score",
+        "plain": "How many community gardens exist for every 10,000 residents in an NTA.",
+        "formula": "garden_count / population × 10,000",
+        "use": "Best for equity analysis because it compares garden availability against neighborhood population size.",
+        "watchout": "It does not measure walking distance, garden capacity, opening hours, or program quality.",
+    },
+    "garden_density_per_sq_mile": {
+        "label": "Garden Density",
+        "plain": "How concentrated gardens are within the physical area of an NTA.",
+        "formula": "garden_count / NTA land area in square miles",
+        "use": "Best for understanding spatial concentration of green infrastructure.",
+        "watchout": "It does not account for how many people live in the area or who has access to the garden.",
+    },
+    "hvi_rank": {
+        "label": "Heat Vulnerability Index",
+        "plain": "A relative heat-risk ranking used to identify communities more vulnerable to extreme heat.",
+        "formula": "NYC Health index rank, commonly interpreted from 1 = lower risk to 5 = higher risk",
+        "use": "Best for climate-resilience prioritization when paired with access and equity measures.",
+        "watchout": "It is an index for exploratory mapping, not a direct causal health-outcome measure.",
+    },
+    "priority_class": {
+        "label": "Priority Classification",
+        "plain": "A simple action-oriented grouping that combines heat vulnerability with garden access.",
+        "formula": "High = HVI ≥ selected threshold and access below city median; Medium = HVI ≥ 3 and access below city median; Lower = all others",
+        "use": "Best for selecting neighborhoods for youth-led SDG education and partnership outreach.",
+        "watchout": "It is a prioritization lens, not a final funding or policy decision rule.",
+    },
+}
+
+METRIC_DICTIONARY_ROWS = [
+    {
+        "Metric": item["label"],
+        "What it explains": item["plain"],
+        "Calculation / rule": item["formula"],
+        "Best used for": item["use"],
+    }
+    for item in METRIC_EXPLANATIONS.values()
+]
+
 # -----------------------------------------------------------------------------
 # Styling
 # -----------------------------------------------------------------------------
@@ -279,6 +327,86 @@ st.markdown(
             background: {PALETTE['forest']} !important;
             color: #FFFFFF !important;
         }}
+        .hero-panel {{
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #FFFFFF 0%, #F3F7EF 58%, #FFF2EA 100%);
+            border: 1px solid {PALETTE['line']};
+            border-radius: 1.35rem;
+            padding: 1.35rem 1.45rem 1.15rem 1.45rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 18px 42px rgba(14, 51, 39, 0.11);
+        }}
+        .hero-panel::before {{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background: linear-gradient(90deg, {PALETTE['forest']}, {PALETTE['sage_dark']}, {PALETTE['terracotta']});
+        }}
+        .hero-meta {{
+            display: flex;
+            gap: .45rem;
+            flex-wrap: wrap;
+            margin-top: .8rem;
+        }}
+        .source-chip {{
+            display: inline-block;
+            border-radius: 999px;
+            background: rgba(14, 51, 39, 0.07);
+            border: 1px solid rgba(14, 51, 39, 0.13);
+            color: {PALETTE['forest']};
+            font-size: .78rem;
+            font-weight: 820;
+            letter-spacing: .015em;
+            padding: .35rem .65rem;
+        }}
+        .metric-explainer {{
+            background: #FFFFFF;
+            border: 1px solid {PALETTE['line']};
+            border-left: 6px solid {PALETTE['terracotta']};
+            border-radius: .95rem;
+            padding: .9rem 1rem;
+            margin: .75rem 0 1rem 0;
+            box-shadow: 0 7px 18px rgba(14, 51, 39, 0.07);
+            color: {PALETTE['ink']};
+        }}
+        .metric-explainer h4 {{
+            margin: 0 0 .35rem 0;
+            color: {PALETTE['forest']};
+        }}
+        .metric-explainer p {{
+            margin: .25rem 0;
+        }}
+        .sidebar-note {{
+            background: rgba(255,255,255,0.94);
+            border-radius: .9rem;
+            padding: .78rem .82rem;
+            border: 1px solid rgba(255,255,255,0.42);
+            color: {PALETTE['ink']} !important;
+            margin-top: .7rem;
+        }}
+        .sidebar-note * {{
+            color: {PALETTE['ink']} !important;
+        }}
+        [data-testid="stSidebar"] div[data-baseweb="select"] > div {{
+            background-color: #FFFFFF !important;
+            border: 1px solid rgba(14,51,39,.18) !important;
+            border-radius: .65rem !important;
+        }}
+        [data-testid="stSidebar"] div[data-baseweb="select"] span,
+        [data-testid="stSidebar"] div[data-baseweb="select"] input,
+        [data-testid="stSidebar"] div[data-baseweb="select"] svg {{
+            color: #111111 !important;
+            fill: #111111 !important;
+        }}
+        div[data-baseweb="popover"] li,
+        div[data-baseweb="popover"] div[role="option"],
+        div[data-baseweb="popover"] * {{
+            color: #111111 !important;
+        }}
         hr {{
             border: none;
             border-top: 1px solid {PALETTE['line']};
@@ -402,6 +530,36 @@ def friendly_metric_name(metric: str) -> str:
         "hvi_rank": "Heat Vulnerability Index",
     }
     return names.get(metric, metric.replace("_", " ").title())
+
+
+def render_selected_metric_explainer(metric: str, compact: bool = False) -> None:
+    info = METRIC_EXPLANATIONS.get(metric)
+    if not info:
+        return
+    if compact:
+        st.sidebar.markdown(
+            f"""
+            <div class="sidebar-note">
+                <strong>{info['label']}</strong><br>
+                {info['plain']}<br>
+                <span style="font-size:.82rem;"><strong>Formula:</strong> {info['formula']}</span>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        return
+    st.markdown(
+        f"""
+        <div class="metric-explainer">
+            <h4>{info['label']}</h4>
+            <p><strong>What it explains:</strong> {info['plain']}</p>
+            <p><strong>Calculation / rule:</strong> {info['formula']}</p>
+            <p><strong>Best used for:</strong> {info['use']}</p>
+            <p><strong>Interpretation caution:</strong> {info['watchout']}</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 def df_to_geojson(df: pd.DataFrame) -> Dict:
@@ -1071,6 +1229,8 @@ def make_priority_map(df: pd.DataFrame, gardens: pd.DataFrame) -> go.Figure:
 def render_data_factors() -> None:
     st.markdown("### What exactly goes into each dataset")
     st.dataframe(pd.DataFrame(DATASET_FACTORS), use_container_width=True, hide_index=True)
+    st.markdown("#### Metric dictionary")
+    st.dataframe(pd.DataFrame(METRIC_DICTIONARY_ROWS), use_container_width=True, hide_index=True)
     st.markdown("#### Heat Vulnerability Index factors")
     st.dataframe(pd.DataFrame(HVI_FACTOR_ROWS), use_container_width=True, hide_index=True)
     st.markdown(
@@ -1108,6 +1268,7 @@ metric_view = st.sidebar.selectbox(
 )
 buffer_distance = st.sidebar.slider("Visual garden buffer distance", 0.10, 1.00, 0.25, 0.05)
 hvi_threshold = st.sidebar.slider("High HVI threshold", 3, 5, 4, 1)
+render_selected_metric_explainer(metric_view, compact=True)
 
 priority_gdf, priority_status = classify_priority_areas(nta_metrics, hvi_df, hvi_threshold=hvi_threshold)
 
@@ -1133,17 +1294,22 @@ st.sidebar.caption(f"HVI: {hvi_status.get('source')} / {priority_status.get('joi
 # Header
 # -----------------------------------------------------------------------------
 
-st.markdown("<div class='eyebrow'>Civic-tech geospatial dashboard · SDG 11 · SDG 13 · SDG 15</div>", unsafe_allow_html=True)
-st.markdown("<div class='main-title'>NYC Community Gardens for Equitable Climate Resilience</div>", unsafe_allow_html=True)
-st.markdown(
-    "<div class='guiding-question'>How can NYC community gardens support sustainable, equitable, and climate-resilient cities?</div>",
-    unsafe_allow_html=True,
-)
 st.markdown(
     """
-    <div class="callout">
-    This dashboard treats NYC community gardens as small-scale urban resilience infrastructure: public-space access, 
-    heat-risk awareness, biodiversity, food education, and youth-led community action.
+    <div class="hero-panel">
+        <div class="eyebrow">UN/SDG education demo · Civic-tech geospatial dashboard · SDG 11 · SDG 13 · SDG 15</div>
+        <div class="main-title">NYC Community Gardens for Equitable Climate Resilience</div>
+        <div class="guiding-question">How can NYC community gardens support sustainable, equitable, and climate-resilient cities?</div>
+        <p class="subtle" style="font-size:1rem; margin:.35rem 0 0 0;">
+            This dashboard treats NYC community gardens as small-scale urban resilience infrastructure: public-space access, 
+            heat-risk awareness, biodiversity, food education, and youth-led community action.
+        </p>
+        <div class="hero-meta">
+            <span class="source-chip">NYC Open Data</span>
+            <span class="source-chip">NTA geography</span>
+            <span class="source-chip">Heat vulnerability</span>
+            <span class="source-chip">Youth SDG action</span>
+        </div>
     </div>
     """,
     unsafe_allow_html=True,
@@ -1218,6 +1384,7 @@ with tab2:
         """,
         unsafe_allow_html=True,
     )
+    render_selected_metric_explainer(metric_view)
     st.plotly_chart(
         make_metric_choropleth(filtered_nta, metric_view, f"NTA choropleth: {friendly_metric_name(metric_view)}"),
         use_container_width=True,
@@ -1258,6 +1425,8 @@ with tab3:
         """,
         unsafe_allow_html=True,
     )
+    render_selected_metric_explainer("hvi_rank")
+    render_selected_metric_explainer("priority_class")
     st.plotly_chart(make_priority_map(filtered_nta, filtered_gardens), use_container_width=True)
     high = filtered_nta[filtered_nta["priority_class"] == "High priority"]
     medium = filtered_nta[filtered_nta["priority_class"] == "Medium priority"]
